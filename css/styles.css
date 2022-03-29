@@ -5,6 +5,8 @@ ul {
 body {
   background-color: #e5e5e5;
   color: #757575;
+
+  font-family: Roboto, sans-serif;
 }
 /* цвет основного текста #212121 */
 /* вторичній цвет #757575 */
@@ -21,6 +23,9 @@ body {
 /*  */
 .link-logo {
   color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .hero {
   width: 1600px;
@@ -33,6 +38,15 @@ body {
   color: #ffffff;
 }
 .button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.button-port {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.button-port:hover,
+.button-port:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
