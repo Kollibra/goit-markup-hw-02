@@ -1,19 +1,11 @@
-ul {
-  list-style: none;
-}
-
-body {
-  background-color: #e5e5e5;
-  color: #757575;
-
-  font-family: Roboto, sans-serif;
-}
-/* цвет основного текста #212121 */
-/* вторичній цвет #757575 */
+/* цвет основного текста #757575 */
+/* вторичній цвет #212121 */
 /* акцент цвет #2196F3 */
-/*  черный #000000 */
 /* белый #FFFFFF */
+/* черный #000000 */
+/* color: rgba(255, 255, 255, 0.6)*/
 
+/* Фон */
 /*  шапка background: #FFFFFF */
 /*  герой и футер background:  #2F303A */
 /*  общий фон  background: background: #E5E5E5 */
@@ -21,17 +13,52 @@ body {
 /*  портф под фотками #FFFFFF */
 
 /*  */
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+  font-family: Roboto, sans-serif;
+}
+/* Заголовки */
+.section-title {
+  color: #212121;
+}
+/* Хедер */
+/* Логотип */
 .link-logo {
   color: #2196f3;
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
 }
+/* Навигация */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover {
+  color: #2196f3;
+}
+.site-nav .link:active {
+  color: #2196f3;
+}
+/* Контакты */
+.site-contact .link {
+  color: #757575;
+}
+.site-contact .link:hover,
+.site-contact .link:focus {
+  color: #2196f3;
+}
+/* Блок герой */
 .hero {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
   background: #2f303a;
 }
 .hero-title {
@@ -41,6 +68,7 @@ body {
   line-height: 1.36;
   text-align: center;
 }
+/* Кнопка блока герой */
 .button {
   background-color: #2196f3;
   color: #ffffff;
@@ -54,6 +82,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+/* Кнопки портфолио */
 .button-port {
   background-color: #f5f4fa;
   color: #212121;
@@ -63,15 +92,11 @@ body {
   background-color: #2196f3;
   color: #ffffff;
 }
-.site-nav .link {
-  color: #212121;
+
+/* Футер */
+.link-map {
+  color: #ffffff;
 }
-.site-nav .link:hover {
-  color: #2196f3;
-}
-.site-nav .link:active {
-  color: #2196f3;
-}
-.section-title {
-  color: #212121;
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
 }
