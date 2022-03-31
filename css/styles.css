@@ -51,17 +51,14 @@ body {
 }
 /* Абзацы */
 .solution-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
 .portf-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 }
@@ -116,6 +113,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  cursor: pointer;
 }
 /* Кнопки портфолио */
 .button-port {
@@ -130,6 +128,9 @@ body {
 .button-port:focus {
   background-color: var(--accent-text-color);
   color: var(--white-text-color);
+}
+.button-port {
+  cursor: pointer;
 }
 
 /* Футер */
