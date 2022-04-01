@@ -157,12 +157,14 @@ body {
 }
 .link-map {
   color: var(--white-text-color);
+  font-style: normal;
   font-weight: 400;
   line-height: 1.71;
   text-decoration: none;
 }
 .address .link {
   color: var(--address-text-color);
+  font-style: normal;
   font-weight: 400;
   line-height: 1.71;
   text-decoration: none;
