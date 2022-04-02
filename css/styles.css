@@ -21,7 +21,6 @@ body {
   background-color: var(--white-text-color);
   color: var(--main-text-color);
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -29,12 +28,14 @@ body {
 /* Заголовки */
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 .text-title {
   color: var(--title-text-color);
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -46,22 +47,20 @@ body {
 }
 .portf-title {
   color: var(--title-text-color);
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 /* Абзацы */
 .solution-text {
-  font-weight: 400;
   line-height: 1.71;
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
 .portf-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 }
@@ -71,6 +70,7 @@ body {
 .link-logo {
   color: var(--accent-text-color);
   font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -84,6 +84,7 @@ body {
 /* Навигация */
 .site-nav .link {
   color: var(--title-text-color);
+  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -98,6 +99,7 @@ body {
 /* Контакты */
 .site-contact .link {
   color: var(--main-text-color);
+  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -140,6 +142,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .button-port:hover,
 .button-port:focus {
@@ -158,14 +161,12 @@ body {
 .link-map {
   color: var(--white-text-color);
   font-style: normal;
-  font-weight: 400;
   line-height: 1.71;
   text-decoration: none;
 }
 .address .link {
   color: var(--address-text-color);
   font-style: normal;
-  font-weight: 400;
   line-height: 1.71;
   text-decoration: none;
 }
