@@ -129,7 +129,20 @@ font-style: normal
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-
+/*Our team*/
+.our-team {
+    background-color: #F4F4FD;
+}
+.title-ourteam {
+    text-align: center;
+    text-transform: capitalize;
+}
+.list-ourteam {
+    background-color: #FFFFFF;
+}
+.text-team {
+    font-size: 16px;
+}
 /*Footer*/
 footer {
     background-color: #2E2F42;
