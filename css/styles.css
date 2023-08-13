@@ -49,6 +49,9 @@ h3 {
     font-size: 20px;
     line-height: 1.2;
 }
+p {
+
+}
 /*Header*/
 /*Logo*/
 .link-logo {
@@ -70,6 +73,7 @@ h3 {
     text-decoration: none;
     color: #2E2F42 ;
     font-weight: 500;
+    line-height: 1.5;
 
 }
 .link:hover {
@@ -77,4 +81,29 @@ h3 {
 }
 .link:focus {
     color: #404BBf
+}
+.contact .link{
+    text-decoration: none;
+    line-height: 1.5;
+}
+/*Hero*/
+.hero {
+    background-color: #2E2F42 ;
+}
+/*Button*/
+.button {
+    background-color: #4D5AE5 ;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #404BBf;
+}
+/*Footer*/
+footer {
+    background-color: #2E2F42;
 }
