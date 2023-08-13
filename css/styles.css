@@ -1,10 +1,29 @@
+/* color
+iris - #4D5AE5; primary brand
+ocean -#404BBf; pressed
+navy blue -#2E2F42; dark
+green - #31D0AA;  success
+slate - #434455;  text
+ligth slate -#8E8F99;  subtle text
+cornflower - #E7E9FC;  accent
+cloud - #F4F4FD; light background
+navy blue modal - #2E2F42; modal overlay
+grey - #2E2F42; hero background               ?
+white - #FFFFFF; white background
+dairy - #FCFCFC; modal background
+
+*/
+
 ul {
     list-style: none;
 }
 
 body {
     background-color: #ffffff;
-        color: #434455;;
+    color: #434455;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
         
         
 }
