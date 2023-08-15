@@ -90,17 +90,18 @@ letter-spacing: 0.02em;
 }
 address {
 font-style: normal;
-font-weight: 400;
+
 }
-.contact .link{
+.link-contact{
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 
+
 }
-.contact .link:hover,
-.contact .link:focus {
+.link-contact:hover,
+.link-contact:focus {
     color: #404bbf;
 }
 /*Hero*/
