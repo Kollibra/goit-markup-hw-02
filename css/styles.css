@@ -89,7 +89,8 @@ letter-spacing: 0.02em;
     color: #404BBf
 }
 address {
-font-style: normal
+font-style: normal;
+font-weight: 400;
 }
 .contact .link{
     text-decoration: none;
